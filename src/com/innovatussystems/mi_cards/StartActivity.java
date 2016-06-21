@@ -587,7 +587,7 @@ public class StartActivity extends Activity implements SensorEventListener {
         // Test if there is a camera on the device and if the SD card is
         // mounted.
 /*		if (!checkCameraHardware(this)) {
-			Intent i = new Intent(this, NoCamera.class);
+            Intent i = new Intent(this, NoCamera.class);
 			startActivity(i);
 			finish();
 	}*/
